@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-light;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-btn hover:opacity-60 text-white;
+  }
+}
